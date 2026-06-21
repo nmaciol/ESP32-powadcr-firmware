@@ -1,0 +1,14 @@
+{
+  "name": "ESP32 PowaDCR Firmware", 
+  "version": "1.0r7.14",
+  "builds": [
+    {
+      "chipFamily": "ESP32",
+      "parts": [
+        { "path": "firmware/1.0r7.14/bootloader.bin", "offset": 4096 },
+        { "path": "firmware/1.0r7.14/partitions.bin", "offset": 32768 },
+        { "path": "firmware/1.0r7.14/firmware.bin", "offset": 65536 }
+      ]
+    }
+  ]
+}
